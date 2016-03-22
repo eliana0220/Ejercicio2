@@ -9,6 +9,7 @@ body{
 	color: #fff;
 	font-family: Arial;
 	font-size: 12px;
+	font-color:#000033;
 }
 
 .body{
@@ -23,6 +24,7 @@ body{
 	background-size: cover;
 	-webkit-filter: blur(5px);
 	z-index: 0;
+	font-color:#000033;
 }
 
 .grad{
@@ -38,6 +40,7 @@ body{
 	opacity: 0.7;
 	padding-left: 40px;
     padding-top: 100px;
+    font-color: #000033;
 }
 
 .header{
@@ -76,7 +79,8 @@ body{
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	/*font-family: 'Exo', sans-serif;*/
 	font-size: 16px;
 	font-weight: 400;
 	padding: 4px;
@@ -86,11 +90,13 @@ body{
 	width: 250px;
 	height: 30px;
 	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
+	border: 3px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 16px;
+	border-color:#000033;
+	/*color: #fff;191970*/
+	font-color:#000033;font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	/*font-family: 'Exo', sans-serif;*/
+	font-size: 26px;
 	font-weight: 400;
 	padding: 4px;
 	margin-top: 20px;
@@ -99,13 +105,16 @@ body{
 .login input[type=button]{
 	width: 250px;
 	height: 35px;
-	background: #fff;
-	border: 1px solid #fff;
+	/*background: #fff;*/
+	background-color:#355664;
+	border: 2px solid #fff;
 	cursor: pointer;
 	border-radius: 2px;
-	color: #a18d6c;
-	font-family: 'Exo', sans-serif;
-	font-size: 16px;
+	color:#fcfcfc;
+	/*color: #a18d6c;*/
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	/*font-family: 'Exo', sans-serif;*/
+	font-size: 20px;
 	font-weight: 400;
 	padding: 6px;
 	margin-top: 10px;
@@ -140,3 +149,9 @@ body{
 ::-moz-input-placeholder{
    color: rgba(255,255,255,0.6);
 }
+
+.text--center {
+  text-align: center;
+}
+
+/*STYLE LINKS PARA REGISTRAR Y RECUPERAR CONTRASEÑA*/
